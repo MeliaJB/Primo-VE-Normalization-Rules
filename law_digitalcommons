@@ -1,1 +1,81 @@
-rule "
+#Display
+rule "set resource type to articles"
+when
+"dc"."type" equals "text"
+then
+set "text_resource" in "discovery"."resourceType"
+end
+
+rule "map format field_extent"
+when
+exist "dcterms"."extent"
+then
+move "dcterms"."extent" to "dc"."format"
+end
+
+rule "map format field_medium"
+when
+exist "dcterms"."medium"
+then
+move "dcterms"."medium" to "dc"."format"
+end
+
+rule "map isPartOf field_source"
+when
+exist "dc"."source"
+then
+move "dc"."source" to "dcterms"."isPartOf"
+end
+
+rule "map isPartOf field_bibcitation"
+when
+exist "dcterms"."bibliographicCitation"
+then
+move "dcterms"."bibliographicCitation" to "dcterms"."isPartOf"
+end
+
+rule "map description field_abstract"
+when
+exist "dcterms"."abstract"
+then
+move "dcterms"."abstract" to "dc"."description"
+end
+
+rule "map description field_tableOfContents"
+when
+exist "dcterms"."tableOfContents"
+then
+move "dcterms"."tableOfContents" to "dc"."description"
+end
+
+rule "map and merge relation field"
+when
+exist "dcterms"."isReplacedBy"
+exist "dcterms"."replaces"
+exist "dc"."relation"
+then
+set TEMP"1" to dc value "dcterms"."isReplacedBy"
+set TEMP"2" to dc value "dcterms"."replaces"
+concatenate with delimiter (TEMP"1",TEMP"2",";")
+set TEMP"3" to dc value "dc"."relation"
+concatenate with delimiter (TEMP"1",TEMP"3",";")
+set "discovery"."relation" to TEMP"1"
+end
+
+rule "map and merge rights field"
+when
+exist "dcterms"."accessRights"
+exist "dc"."rights"
+then
+set TEMP"1" to dc value "dcterms"."accessRights"
+set TEMP"2" to dc value "dc"."rights"
+concatenate with delimiter (TEMP"1",TEMP"2",";")
+set "discovery"."rights" to TEMP"1"
+end
+
+rule "display source field text"
+when
+true
+then
+set "MiamiLaw Institutional Repository" in "discovery"."local33"
+end
