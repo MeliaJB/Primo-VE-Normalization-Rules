@@ -1,0 +1,21 @@
+#Display
+rule "set resource type to articles"
+when
+true
+then
+set "articles" in "discovery"."resourceType"
+end
+
+rule "source_discovery.local33"
+when
+true
+then
+set "UM Libraries Ubiquity Press" in "discovery"."local33"
+end
+
+rule "map ispartof from source"
+when
+exist "dc"."source"
+then
+move "dc"."source" to "dcterms"."isPartOf"
+end
