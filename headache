@@ -12,6 +12,14 @@ rule "fix date field"
     remove substring using regex (TEMP"1","T.*")
     set "dc"."date" with TEMP"1"
 end
+rule "fix date field"
+when
+exist "dc"."date"
+then
+  set TEMP"1" to dc value "dc"."date"
+  remove substring using regex (TEMP"1","T.*")
+  set "discovery"."date" to TEMP"1"
+end
 
 #mjb--7/6/23--unresolved
   #Unable to parse out dc.source field for Ubiquity records. There are two source fields in the records, one for the journal name and one for the issn number. According to documentation, there is only an "equals" function for specifying contents of a field. It will only do an exact match, which doesn't work for our purposes. I need a way to assign the journal name to an isPartOf field and the issn to an identifier field (both coming from dc.source). Currently, I placed dc.source in an isPartOf field which will display botht the issn and journal name.
