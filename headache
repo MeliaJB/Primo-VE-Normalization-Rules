@@ -1,0 +1,18 @@
+#Headaches: Here is a space for putting problem normalization rules that should work but aren't and any info about tickets submitted for normalization rules in Primo VE. Please separate entries by comment. Include the date, status (whether the issue is resolved or not), an optional note/example and initials in each entry.
+
+#mjb--7/6/23--unresolved
+  #Documentation for dublin core "Date of Publication" field states that "Time-zoned dates (which are dates that end with the letter Z are not mapped to Primo VE)." This is an issue because it looks like records coming from Digital Commons have time zoned dates. The rule below isn't working. 
+  #Error message: [7] Unable to expand: set "dc"."date" with TEMP"1". Don't have to submit a ticket yet, I believe it's solvable.
+  #Example from record: <dc:date>2011-07-01T07:00:00Z</dc:date>
+rule "fix date field"
+  when
+    exist "dc"."date"
+  then
+    set TEMP"1" to "dc"."date"
+    remove substring using regex (TEMP"1","T.*")
+    set "dc"."date" with TEMP"1"
+end
+
+#mjb--7/6/23--unresolved
+  #Unable to parse out dc.source field for Ubiquity records. There are two source fields in the records, one for the journal name and one for the issn number. According to documentation, there is only an "equals" function for specifying contents of a field. It will only do an exact match, which doesn't work for our purposes. I need a way to assign the journal name to an isPartOf field and the issn to an identifier field (both coming from dc.source). Currently, I placed dc.source in an isPartOf field which will display botht the issn and journal name.
+
