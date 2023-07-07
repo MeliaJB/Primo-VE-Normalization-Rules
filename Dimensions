@@ -1,0 +1,7 @@
+# Dimensions Local Display field Lds23
+rule "Primo VE - Lds23"
+	when
+		DCMI is "discovery"."local23"
+	then
+		create pnx."display"."lds23" with DCMI."discovery"."local23"
+end
