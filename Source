@@ -1,0 +1,7 @@
+#Source Local Display field Lds33
+rule "Primo VE - Lds33"
+	when
+		DCMI is "discovery"."local33"
+	then
+		create pnx."display"."lds33" with DCMI."discovery"."local33"
+end
