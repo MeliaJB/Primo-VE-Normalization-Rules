@@ -1,0 +1,7 @@
+#Artist/Maker Local Display field Lds35
+rule "Primo VE - Lds35"
+	when
+		DCMI is "discovery"."local35"
+	then
+		create pnx."display"."lds35" with DCMI."discovery"."local35"
+end
