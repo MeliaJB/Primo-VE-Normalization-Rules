@@ -1,4 +1,4 @@
-#Display
+# Alma MMS ID Display Lds02
 rule "Primo VE - Lds02"
 	when
 		MARC is "001"."a"
