@@ -1,0 +1,7 @@
+#Credit Line Local Discovery field Lds24
+rule "Primo VE - Lds24"
+	when
+		DCMI is "discovery"."local24"
+	then
+		create pnx."display"."lds24" with DCMI."discovery"."local24"
+end
