@@ -1,0 +1,7 @@
+#Medium Local Display field Lds25
+rule "Primo VE - Lds25"
+	when
+		DCMI is "discovery"."local25"
+	then
+		create pnx."display"."lds25" with DCMI."discovery"."local25"
+end
