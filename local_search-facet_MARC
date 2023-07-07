@@ -1,6 +1,0 @@
-rule "Primo VE Marc - Lsr02"
-	when
-		MARC is "001"."a"
-	then
-		create pnx."search"."lsr02" with MARC "001"."a"
-end
