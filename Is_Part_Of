@@ -1,0 +1,15 @@
+#Is Part Of Display Local field Lds01
+rule "Primo VE - Lds01"
+when
+DCMI is "dc"."source"
+then
+create operational."prima_display"."lds01" with DCMI."dc"."source"
+end
+
+#Is Part Of Search and Facet Local field Lsr01
+rule "Primo VE DC - Lsr01"
+	when
+		DCMI is "dc"."source"
+	then
+		create pnx."search"."lsr01" with DCMI."dc"."source"
+end
