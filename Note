@@ -1,0 +1,66 @@
+#Note Local Display field Lds04
+rule "Primo VE - Lds04"
+	when
+		MARC is "500"."a"
+	then
+		create pnx."display"."lds04" with MARC "500"."a"
+end
+
+
+rule "Primo VE - Lds04 504"
+	when
+		MARC is "504"."a"
+	then
+		create pnx."display"."lds04" with MARC "504"."a"
+end
+
+
+rule "Primo VE - Lds04 513"
+        when
+               MARC is "513"."a"
+        then
+             create pnx."display"."lds04" with MARC "513"."a"
+end
+
+
+
+rule "Primo VE - Lds04 515"
+	when
+		MARC is "515"."a"
+	then
+		create pnx."display"."lds04" with MARC "515"."a"
+end
+
+
+rule "Primo VE - Lds04 518"
+	when
+		MARC."518" has any "a,d,o,p,3"
+	then
+		create pnx."display"."lds04" with MARC."518" sub without sort "a,d,o,p,3"
+end
+
+rule "Primo VE - Lds04 514"
+	when
+		MARC."514" has any "u,z"
+	then
+		set TEMP"1" to MARC."514" subfields "u"
+		set TEMP"2" to MARC."514" subfields "z"
+		add suffix (TEMP"2","</a>")
+		add prefix (TEMP"1","<a  href=\"")
+		add suffix (TEMP"1","\">")
+		set pnx."display"."lds04" to TEMP"1"
+	end
+
+rule "Primo VE - Lds04 525"
+	when
+		MARC is "525"."a"
+	then
+		create pnx."display"."lds04" with MARC "525"."a"
+end
+
+rule "Primo VE - Lds04 530"
+	when
+		MARC."530" has any "a,b,c"
+	then
+		create pnx."display"."lds04" with MARC."530" sub without sort "a,b,c"
+end
