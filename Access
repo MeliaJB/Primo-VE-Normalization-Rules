@@ -1,0 +1,7 @@
+# Access Display Local field Ldr12
+rule "Primo VE - Lds12"
+	when
+		DCMI is "discovery"."local12"
+	then
+		create pnx."display"."lds12" with DCMI."discovery"."local12"
+end
