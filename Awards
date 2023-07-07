@@ -1,4 +1,4 @@
-#Awards Display lds19
+#Awards Local Display field Lds19
 rule "Primo VE - Lds19"
 	when
 		MARC is "586"."a"
