@@ -1,0 +1,59 @@
+#Display
+rule "access_discovery.local12"
+when
+    true
+then
+    set "For more information about accessing items at the Lowe Art Museum, please visit: <a href='https://www.lowe.miami.edu/collections/policies/collection%20research%20policy/index.html'>Lowe Art Museum Collection Research Policy</a>" in "discovery"."local12"
+end
+
+rule "move relation to discovery.local23"
+when
+exist "dc"."relation"
+then
+move "dc"."relation" to "discovery"."local23"
+end
+
+rule "credit line discovery.local24"
+when
+exist "dc"."coverage"
+then
+move "dc"."coverage" to "discovery"."local24"
+end
+
+rule "move format to discovery.local25"
+when
+exist "dc"."format"
+then
+move "dc"."format" to "discovery"."local25"
+end
+
+rule "genre discovery.local32"
+when
+exist "dc"."type"
+exist "dc"."subject"
+then
+move "dc"."type" to "discovery"."local32"
+move "dc"."subject" to "discovery"."local32"
+end
+
+rule "source_discovery.local33"
+when
+true
+then
+set "Lowe Art Museum, University of Miami" in "discovery"."local33"
+end
+
+rule "artist/maker discovery.local35"
+when
+exist "dc"."creator"
+then
+move "dc"."creator" to "discovery"."local35"
+end
+
+rule "artist/maker discovery.local 35"
+when
+exist "dc"."contributor"
+then
+move "dc"."contributor" to "discovery"."local35"
+end
+
