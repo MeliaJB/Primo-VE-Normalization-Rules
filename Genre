@@ -1,0 +1,7 @@
+#Genre Local Display Field Lds32
+rule "Primo VE - Lds32"
+	when
+		DCMI is "discovery"."local32"
+	then
+		create pnx."display"."lds32" with DCMI."discovery"."local32"
+end
