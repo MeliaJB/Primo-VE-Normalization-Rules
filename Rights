@@ -1,0 +1,7 @@
+#Rights Display Local field Lds48
+rule "Primo VE - Lds48"
+	when
+		DCMI is "discovery"."local48"
+	then
+		create pnx."display"."lds48" with DCMI."discovery"."local48"
+end
