@@ -1,0 +1,15 @@
+#Date Display Local field Ldr49
+rule "Primo VE - Lds49"
+	when
+		DCMI is "discovery"."local49"
+	then
+		create pnx."display"."lds49" with DCMI."discovery"."local49"
+end
+
+#Date Search and Facet Local field Lsr49
+rule "Primo VE DC - Lsr49"
+	when
+		DCMI is "discovery"."local49"
+	then
+		create pnx."search"."lsr49" with DCMI."discovery"."local49"
+end
