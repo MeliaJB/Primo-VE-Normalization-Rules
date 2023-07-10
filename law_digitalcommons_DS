@@ -48,6 +48,15 @@ then
 move "dcterms"."tableOfContents" to "dc"."description"
 end
 
+rule "fix date field"
+when
+true
+then
+  set TEMP"1" to dc value "dc"."date"
+  remove substring using regex (TEMP"1","T.*")
+  set "discovery"."local50" to TEMP"1"
+end
+
 rule "map and merge relation field"
 when
 exist "dcterms"."isReplacedBy"
@@ -59,7 +68,7 @@ set TEMP"2" to dc value "dcterms"."replaces"
 concatenate with delimiter (TEMP"1",TEMP"2",";")
 set TEMP"3" to dc value "dc"."relation"
 concatenate with delimiter (TEMP"1",TEMP"3",";")
-set "discovery"."relation" to TEMP"1"
+set "discovery"."local49" to TEMP"1"
 end
 
 rule "map and merge rights field"
@@ -70,7 +79,7 @@ then
 set TEMP"1" to dc value "dcterms"."accessRights"
 set TEMP"2" to dc value "dc"."rights"
 concatenate with delimiter (TEMP"1",TEMP"2",";")
-set "discovery"."rights" to TEMP"1"
+set "discovery"."local48" to TEMP"1"
 end
 
 rule "display source field text"
