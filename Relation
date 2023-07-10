@@ -1,0 +1,7 @@
+#Relation Display Local field Ldr50
+rule "Primo VE - Lds50"
+	when
+		DCMI is "discovery"."local50"
+	then
+		create pnx."display"."lds50" with DCMI."discovery"."local50"
+end
