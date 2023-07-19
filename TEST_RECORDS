@@ -51,40 +51,72 @@
 
 
 #UBIQUITY
-<record>
-<metadata>
-<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
-    <dc:title xml:lang="en-US">Latinos Unidos por la Salud: The Process of Developing an Immigrant Community Research Team</dc:title>
-    <dc:creator>Vaughn, Lisa M.; Cincinnati Children's Hospital Medical Center</dc:creator>
-    <dc:creator>Jacquez, Farrah; University of Cincinnati</dc:creator>
-    <dc:creator>Zhen-Duan, Jenny; University of Cincinnati</dc:creator>
-    <dc:creator>Graham, Camille; Cincinnati Children's Hospital Medical Center</dc:creator>
-    <dc:creator>Marschner, Daniel; University of Cincinnati</dc:creator>
-    <dc:subject xml:lang="en-US"/>
-    <dc:subject xml:lang="en-US">co-researchers; community-based participatory research; Latino immigrant health; community research team</dc:subject>
-    <dc:description xml:lang="en-US">The tremendous Latino growth combined with the challenges of living in a nontraditional migration area make Latinos, particularly those who are undocumented, a “difficult-to-reach” and understudied population in research. We describe the development and practice of an immigrant community research team created to investigate and improve research quality regarding health-related needs, beliefs, and behaviors of recent Latino immigrants living in Cincinnati, Ohio. Our community research team, Latinos Unidos por la Salud (LUSalud), is composed of Latino immigrant community members and academic researchers working in a health research partnership. The community team members are considered “co-researchers” since LU-Salud was designed within a community-based participatory research framework where we engaged in shared decision making at each phase of the research process from design, data collection, and interpretation of findings to dissemination. The co-researcher approach promoted shared decision-making and community empowerment throughout the research process with our community members providing expertise about the “what” (Latino immigrant health-related beliefs and behaviors, questionnaire content, interpretation of data) and the “why” (to obtain perspectives from Latino immigrants who typically don’t engage with academics) and our academic members bringing expertise about the “how” (research design and methods, grant funding).</dc:description>
-    <dc:publisher xml:lang="en-US">University of Miami Libraries</dc:publisher>
-    <dc:contributor xml:lang="en-US"/>
-    <dc:date>2017-02-28</dc:date>
-    <dc:type>info:eu-repo/semantics/article</dc:type>
-    <dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
-    <dc:type xml:lang="en-US"/>
-    <dc:format>application/pdf</dc:format>
-    <dc:identifier>https://collaborations.miami.edu/jms/article/view/9</dc:identifier>
-    <dc:identifier>10.33596/coll.9</dc:identifier>
-    <dc:identifier xml:lang="eng">oai:ojs.pkp.sfu.ca:article/9</dc:identifier>
-    <dc:source xml:lang="en-US">Collaborations: A Journal of Community-Based Research and Practice; Vol 1, No 1 (2017); 2</dc:source>
-    <dc:source>2638-4396</dc:source>
-    <dc:language>eng</dc:language>
-    <dc:relation>https://collaborations.miami.edu/jms/article/view/9/9</dc:relation>
-    <dc:relation>10.33596/coll.9</dc:relation>
-    <dc:coverage xml:lang="en-US"/>
-    <dc:coverage xml:lang="en-US"/>
-    <dc:coverage xml:lang="en-US"/>
-    <dc:rights xml:lang="en-US">By submitting to Collaborations, all authors agree to the following terms of licensing/copyright ownership:First publication rights to original work accepted for publication is granted to Collaborations but authors retain copyright for all work published in the journal.Works published in Collaborations will be distributed under a Creative Commons Attribution License (CC-BY). By granting a CC-BY license in their work, authors retain copyright ownership of the work, but they give explicit permission for others to download, reuse, reprint, modify, distribute, and/or copy the work, as long as the original source and author(s) are properly cited (i.e. a complete bibliographic citation and link to the Collaborations website). No permission is required from the author(s) or the publishers for such use. According to the terms of the CC-BY license, any reuse or redistribution must indicate the original CC-BY license terms of the work. Exceptions to the application of the CC-BY license may be granted at the editors’ discretion if reasonable extenuating circumstances exist. Such exceptions must be granted in writing by the editors of the Journal; in the absence of a written exception, the CC-BY license will be applied to all published works.Authors may enter into separate, additional contractual agreements for the non-exclusive distribution of the published version of the work, with an acknowledgement of its initial publication in Collaborations.Authors are permitted to post their work online in institutional/disciplinary repositories or on their own websites. Pre-print versions posted online should include a citation and link to the final published version in Collaborations as soon as the issue is available; post-print versions (including the final publisher's PDF) should include a citation and link to the journal's website.It will be the responsibility of the authors to secure all necessary copyright permissions for the use of 3rd-party materials in their manuscript. Authors will be required to provide written evidence of this permission upon acceptance of their manuscript.</dc:rights>
-</oai_dc:dc>
-</metadata>
-</record>
+#Collaborations
+    <record>
+    <metadata>
+    <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+        <dc:title xml:lang="en-US">Latinos Unidos por la Salud: The Process of Developing an Immigrant Community Research Team</dc:title>
+        <dc:creator>Vaughn, Lisa M.; Cincinnati Children's Hospital Medical Center</dc:creator>
+        <dc:creator>Jacquez, Farrah; University of Cincinnati</dc:creator>
+        <dc:creator>Zhen-Duan, Jenny; University of Cincinnati</dc:creator>
+        <dc:creator>Graham, Camille; Cincinnati Children's Hospital Medical Center</dc:creator>
+        <dc:creator>Marschner, Daniel; University of Cincinnati</dc:creator>
+        <dc:subject xml:lang="en-US"/>
+        <dc:subject xml:lang="en-US">co-researchers; community-based participatory research; Latino immigrant health; community research team</dc:subject>
+        <dc:description xml:lang="en-US">The tremendous Latino growth combined with the challenges of living in a nontraditional migration area make Latinos, particularly those who are undocumented, a “difficult-to-reach” and understudied population in research. We describe the development and practice of an immigrant community research team created to investigate and improve research quality regarding health-related needs, beliefs, and behaviors of recent Latino immigrants living in Cincinnati, Ohio. Our community research team, Latinos Unidos por la Salud (LUSalud), is composed of Latino immigrant community members and academic researchers working in a health research partnership. The community team members are considered “co-researchers” since LU-Salud was designed within a community-based participatory research framework where we engaged in shared decision making at each phase of the research process from design, data collection, and interpretation of findings to dissemination. The co-researcher approach promoted shared decision-making and community empowerment throughout the research process with our community members providing expertise about the “what” (Latino immigrant health-related beliefs and behaviors, questionnaire content, interpretation of data) and the “why” (to obtain perspectives from Latino immigrants who typically don’t engage with academics) and our academic members bringing expertise about the “how” (research design and methods, grant funding).</dc:description>
+        <dc:publisher xml:lang="en-US">University of Miami Libraries</dc:publisher>
+        <dc:contributor xml:lang="en-US"/>
+        <dc:date>2017-02-28</dc:date>
+        <dc:type>info:eu-repo/semantics/article</dc:type>
+        <dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+        <dc:type xml:lang="en-US"/>
+        <dc:format>application/pdf</dc:format>
+        <dc:identifier>https://collaborations.miami.edu/jms/article/view/9</dc:identifier>
+        <dc:identifier>10.33596/coll.9</dc:identifier>
+        <dc:identifier xml:lang="eng">oai:ojs.pkp.sfu.ca:article/9</dc:identifier>
+        <dc:source xml:lang="en-US">Collaborations: A Journal of Community-Based Research and Practice; Vol 1, No 1 (2017); 2</dc:source>
+        <dc:source>2638-4396</dc:source>
+        <dc:language>eng</dc:language>
+        <dc:relation>https://collaborations.miami.edu/jms/article/view/9/9</dc:relation>
+        <dc:relation>10.33596/coll.9</dc:relation>
+        <dc:coverage xml:lang="en-US"/>
+        <dc:coverage xml:lang="en-US"/>
+        <dc:coverage xml:lang="en-US"/>
+        <dc:rights xml:lang="en-US">By submitting to Collaborations, all authors agree to the following terms of licensing/copyright ownership:First publication rights to original work accepted for publication is granted to Collaborations but authors retain copyright for all work published in the journal.Works published in Collaborations will be distributed under a Creative Commons Attribution License (CC-BY). By granting a CC-BY license in their work, authors retain copyright ownership of the work, but they give explicit permission for others to download, reuse, reprint, modify, distribute, and/or copy the work, as long as the original source and author(s) are properly cited (i.e. a complete bibliographic citation and link to the Collaborations website). No permission is required from the author(s) or the publishers for such use. According to the terms of the CC-BY license, any reuse or redistribution must indicate the original CC-BY license terms of the work. Exceptions to the application of the CC-BY license may be granted at the editors’ discretion if reasonable extenuating circumstances exist. Such exceptions must be granted in writing by the editors of the Journal; in the absence of a written exception, the CC-BY license will be applied to all published works.Authors may enter into separate, additional contractual agreements for the non-exclusive distribution of the published version of the work, with an acknowledgement of its initial publication in Collaborations.Authors are permitted to post their work online in institutional/disciplinary repositories or on their own websites. Pre-print versions posted online should include a citation and link to the final published version in Collaborations as soon as the issue is available; post-print versions (including the final publisher's PDF) should include a citation and link to the journal's website.It will be the responsibility of the authors to secure all necessary copyright permissions for the use of 3rd-party materials in their manuscript. Authors will be required to provide written evidence of this permission upon acceptance of their manuscript.</dc:rights>
+    </oai_dc:dc>
+    </metadata>
+    </record>
+#Anthurium
+    <record>
+    <metadata>
+    <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+        <dc:title xml:lang="en-US">The Profane Ear: Regimes of Aural Discipline in Paule Marshall’s The Fisher King</dc:title>
+        <dc:creator>Samuel, Petal; University of Virginia</dc:creator>
+        <dc:subject xml:lang="en-US"/>
+        <dc:subject xml:lang="en-US">aurality; discipline; anti-blackness; jazz; law; Paule Marshall; Afro-Caribbean women writers</dc:subject>
+        <dc:description xml:lang="en-US">"In this article, I highlight the sonic disciplinary regimes that form the backdrop of Paule Marshall’s The Fisher King. Marshall’s final novel chronicles the climax of a generations-long antagonism within a black diasporic family that coalesces around one character’s, Sonny-Rett’s, career as a jazz musician. Sonny-Rett’s exceptional musical talent renders him the target of overlapping regimes of domestic and state regulation and discipline. His alienation from his communities follows the condemnation of jazz in the interwar period as too obscene, flagrant, and undisciplined to have a place in national culture in both the United States and France. By examining the inter- and intra-community fissures that form around the maintenance of a respectable soundscape—and thereby obedient and respectable black subjects—I argue that Marshall calls attention to the soundscape as a critical frontier in struggles to dismantle global anti-blackness. By casting black cultural production as improper and anti-national, black subjects are obliquely targeted for exclusion or extermination under the guise of seemingly neutral regulations that indict music and musical venues rather than subjects.This work underlines Marshall as a forerunner of later Caribbean women writers—such as Erna Brodber and M. NourbeSe Philip—who view decolonization and struggles against anti-blackness as projects that require broad, international black solidarity, rather than solely national or regional affiliation. Sonny Rett’s expulsion from his home, exile from his nation, and death as an expatriate in Paris at the hands of the police signal the pressures of national belonging; conversely, his live performances elicit aural experiences of solidarity with his audience. For Marshall, jazz both links and divides Afro-diasporic communities who grapple with the often-conflicting demands of black middle class respectability and liberatory possibilities of black solidarity.“The Profane Ear” unfolds in three parts: First, I examine how Sonny-Rett is presented as a unique aural subject whose powers of hearing are viewed as both profound and “profane”. Next, through close attention to Sonny Rett’s mother’s home, I show how domestic spaces in the novel become sites of alienation and sonic regulation whose tactics of discipline borrow from military and legal discourses, linking them with the state. Finally, by showing how the linked geographies of New York and Paris in the interwar period enforced similar laws to restrict black jazz musicians, I present Sonny-Rett’s decline and death as exemplary of the link between global anti-blackness and soundscape regulation."</dc:description>
+        <dc:publisher xml:lang="en-US">University of Miami Libraries</dc:publisher>
+        <dc:contributor xml:lang="en-US"/>
+        <dc:date>2017-06-19</dc:date>
+        <dc:type>info:eu-repo/semantics/article</dc:type>
+        <dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+        <dc:type xml:lang="en-US"/>
+        <dc:format>application/pdf</dc:format>
+        <dc:identifier>https://anthurium.miami.edu/jms/article/view/332</dc:identifier>
+        <dc:identifier>10.33596/anth.332</dc:identifier>
+        <dc:source xml:lang="fr-CA">Anthurium; Vol 14, No 1 (2017); 8</dc:source>
+        <dc:source xml:lang="en-US">Anthurium A Caribbean Studies Journal; Vol 14, No 1 (2017); 8</dc:source>
+        <dc:source>1547-7150</dc:source>
+        <dc:language>eng</dc:language>
+        <dc:relation>https://anthurium.miami.edu/jms/article/view/332/327</dc:relation>
+        <dc:relation>10.33596/anth.332</dc:relation>
+        <dc:coverage xml:lang="en-US"/>
+        <dc:coverage xml:lang="en-US"/>
+        <dc:coverage xml:lang="en-US"/>
+        <dc:rights xml:lang="en-US">Authors who publish with this journal agree to the following terms:Authors retain copyright and grant the journal right of first publication with the work simultaneously licensed under a Creative Commons Attribution License that allows others to share the work with an acknowledgement of the work's authorship and initial publication in this journal.Authors are able to enter into separate, additional contractual arrangements for the non-exclusive distribution of the journal's published version of the work (e.g., post it to an institutional repository or publish it in a book), with an acknowledgement of its initial publication in this journal.Authors are permitted and encouraged to post their work online (e.g., in institutional repositories or on their website) prior to and during the submission process, as it can lead to productive exchanges, as well as earlier and greater citation of published work (See The Effect of Open Access).</dc:rights>
+    </oai_dc:dc>
+    </metadata>
+    </record>
 
 
 
